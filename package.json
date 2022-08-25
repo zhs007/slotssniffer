@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/zhs007/slotssniffer#readme",
   "dependencies": {
-    "puppeteer": "^16.2.0"
+    "puppeteer": "^16.2.0",
+    "puppeteer-interceptor": "^2.2.0"
   }
 }
