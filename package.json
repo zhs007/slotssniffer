@@ -1,0 +1,22 @@
+{
+  "name": "slotssniffer",
+  "version": "1.0.0",
+  "description": "slots game sniffer tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhs007/slotssniffer.git"
+  },
+  "author": "zerrozhao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhs007/slotssniffer/issues"
+  },
+  "homepage": "https://github.com/zhs007/slotssniffer#readme",
+  "dependencies": {
+    "puppeteer": "^16.2.0"
+  }
+}
