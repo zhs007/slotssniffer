@@ -26,9 +26,9 @@ var gamemsgs = [];
 var curfn = genmsgfn();
 
 const mpos = [
-    [730, 680],
+    [730, 130],
     [420, 443],
-    [750, 533],
+    [730, 380],
 ];
 
 var mposi = 0;
@@ -78,7 +78,7 @@ async function findTargetFrame(page) {
     await page.goto('https://www.nolimitcity.com/games/xways-hoarder-xsplit/');
 
     while (true) {
-        await wait(500);
+        await wait(200);
 
         if (gameFrame == undefined) {
             gameFrame = await findTargetFrame(page);
